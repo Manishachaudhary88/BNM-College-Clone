@@ -1,0 +1,273 @@
+body {
+  overflow-x: hidden;
+}
+
+.smi {
+  height: 30px;
+  width: 30px;
+  /* border:1px solid red; */
+  border-radius: 50%;
+  text-align: center;
+}
+
+.dotted {
+  border-bottom: 1px dotted maroon;
+}
+
+.text-maroon {
+  color: maroon;
+}
+
+.btn-maroon {
+  background-color: maroon;
+  color: white;
+}
+
+.btn-maroon:hover {
+  background-color: maroon;
+  color: white;
+}
+
+.bg-maroon {
+  background-color: maroon;
+}
+
+.mq {
+  border-top: 2px dashed maroon;
+  border-bottom: 2px dashed maroon;
+}
+
+.anchar:hover {
+  color: green;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+marquee a:hover {
+  color: blue;
+  opacity: 1.5;
+}
+
+.heading::after {
+  content: '';
+  height: 3.5px;
+  width: 45px;
+  background-color: green;
+  position: absolute;
+  margin-top: 46px;
+  left: 49%;
+}
+
+.heading::before {
+  content: '';
+  height: 1.5px;
+  width: 130px;
+  background-color: grey;
+  position: absolute;
+  margin-top: 47px;
+  left: 46%;
+}
+
+.pm {
+  height: 320px;
+  background: linear-gradient(90deg, rgba(150, 0, 0, 0.9), rgba(150, 0, 0, 0.9)), url(../images/9.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.sis {
+  height: 350px;
+  background: linear-gradient(0deg, rgba(150, 0, 0, 0.5), rgba(150, 0, 0, 0.5)), url(../images/9.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.shado {
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 10px;
+}
+
+.b-radius {
+  border-radius: 0px;
+  width: 190px;
+  height: 210px;
+}
+
+/* swiper css */
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #444; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.circle-icon {
+  height: 100px;
+  width: 100px;
+  border: 2px solid maroon;
+  border-radius: 50%;
+  color: maroon;
+  margin: 0px auto;
+}
+
+.circle-icon:hover {
+  height: 100px;
+  width: 100px;
+  border: 2px solid maroon;
+  border-radius: 50%;
+  color: maroon;
+  background-color: rgb(207, 216, 231);
+}
+
+/*  text-slider*/
+swiper-container {
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.ts {
+  height: 400px;
+  background: linear-gradient(0deg, rgba(150, 0, 0, 0.5), rgba(150, 0, 0, 0.5)), url(../images/9.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.anc {
+  text-decoration: none;
+}
+
+.anc:hover {
+  color: yellow;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.box {
+  height: 250px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.box img {
+  height: 100%;
+  transition: 0.5s ease-in;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  background-color: #EAF6ED;
+  color: rgb(100, 39, 39);
+  border-radius: 50%;
+}
+.con:hover .icon {  
+  background-color: #5CB874;
+  transition: 1.8s;
+}
+
+.box:hover img {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+.box:hover .icon {
+  display: block;
+}
+
+.btnl {
+  position: fixed;
+  top: 300px;
+  transform: rotate(90deg);
+  left: -53px;
+  animation: blink 0.8s infinite;
+}
+
+.btnr {
+  position: fixed;
+  top: 370px;
+  transform: rotate(-90deg);
+  right: -50px;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0% {}
+
+  50% {
+    background-color: maroon;
+    color: white;
+  }
+
+  100% {
+    background-color: rgb(220, 199, 5);
+    color: white;
+  }
+}
+
+.btn-arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
+.con {
+  height: 200px;
+  max-width: 400px;
+  border-top: 3px solid #5CB874;
+  border-bottom: 3px solid #5CB874;
+  box-shadow: 3px 3px 8px;
+}
+
+ul li {
+  background-color: maroon;
+}
+
+.nav-item ul li a {
+  color: white;
+}
+.nav-item ul li a:hover {
+  color: green;
+}
+
+.nav-item.dropdown ul li a:hover {
+  background-color: maroon;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
