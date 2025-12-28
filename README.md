@@ -1,2 +1,3 @@
 # BNM-College-Clone
-Practice for improving Frontend Development
+This project is created for practicing and improving frontend development skills.  
+It is a clone of the BNM College website, built purely for learning purposes.
